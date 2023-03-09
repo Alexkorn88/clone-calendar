@@ -1,0 +1,8 @@
+{
+  "events": [
+    {"id": 1, "title": "проснуться gfhajhfnjh", "description": "раз два три", "date": 1678101551},
+    {"id": 2, "title": "умыться", "description": "четыре пять", "date": 1678102555},
+    {"id": 3, "title": "умыться", "description": "четыре пять", "date": 1675671551},
+    {"id": 4, "title": "умыться", "description": "четыре пять", "date": 1681201151}
+  ]
+}

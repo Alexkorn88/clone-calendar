@@ -1,0 +1,91 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-gap: 1px;
+  background-color: rgba(17, 17, 17, 0.05);
+}
+.dayOfWeek {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  min-width: 140px;
+  min-height: 24px;
+  color: rgba(17, 17, 17, 1);
+  background-color: rgba(255, 255, 255, 1);
+  border-bottom: 1px solid rgba(17, 17, 17, 0.05);
+}
+.dayOfWeekSelf {
+  display: flex;
+  justify-content: end;
+  margin: 4px 8px 4px 0;
+  font-weight: bold;
+  color: rgba(17, 17, 17, 0.5);
+}
+.cell {
+  min-width: 140px;
+  min-height: 100px;
+  color: rgba(17, 17, 17, 1);
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.dayWrapper {
+  height: 33px;
+  width: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4px;
+}
+.weekendWrapper {
+  min-width: 140px;
+  min-height: 80px;
+  color: rgba(17, 17, 17, 1);
+  background-color: rgb(247, 253, 255);
+}
+.currentdayWrapper {
+  height: 33px;
+  width: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(37, 115, 232, 0.8);
+  color: rgb(255, 255, 255);
+  border-radius: 50%;
+  margin: 4px;
+}
+
+.rowCell {
+  display: flex;
+  justify-content: end;
+}
+.rowCellLite {
+  display: flex;
+  justify-content: end;
+  color: rgba(17, 17, 17, 0.5);
+}
+.eventWrapper {
+  display: flex;
+  flex-direction: column;
+  margin: unset;
+  list-style: none;
+  padding-left: 0;
+}
+.event {
+  background-color: rgba(24, 144, 255, 0.1);
+  border: 1px solid #1890ff;
+  border-radius: 4px;
+  padding: 0 6px 3px;
+}
+.btnEvent {
+  position: relative;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  border: unset;
+  background: unset;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  width: 114px;
+  text-align: left;
+}
